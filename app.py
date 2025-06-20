@@ -2,7 +2,7 @@
 import streamlit as st
 
 # Load the HTML content from the file
-with open("calendar.html", "r", encoding="utf-8") as f:
+with open("index.html", "r", encoding="utf-8") as f:
     html_content = f.read()
 
 # Set Streamlit layout and render the calendar
